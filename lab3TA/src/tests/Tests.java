@@ -115,9 +115,9 @@ public class Tests {
         @Test
         public void isTriangleExistWhenSideLengthsAreTooBigNumbers () {
 
-            int a = Integer.MAX_VALUE - 3;
-            int b = Integer.MAX_VALUE - 4;
-            int c = Integer.MAX_VALUE - 5;
+            int a = Integer.MAX_VALUE - 2;
+            int b = Integer.MAX_VALUE - 3;
+            int c = Integer.MAX_VALUE - 4;
 
             assertTrue(Triangle.exists(a, b, c));
             assertTrue(Triangle.exists(b, c, a));
