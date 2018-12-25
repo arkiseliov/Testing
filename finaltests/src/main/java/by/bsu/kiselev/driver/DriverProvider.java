@@ -27,6 +27,7 @@ public class DriverProvider {
         return currentURL;
     }
 
+
     public static void closeDriver() {
         if (driver != null) {
             driver.quit();
